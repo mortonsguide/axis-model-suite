@@ -13,10 +13,10 @@ attenuation—providing falsifiable departures from GR.
 ## Contents
 
 - **papers/** — PDFs of the four main works:
-  - *The Axis Model* — lays out the foundational postulates of the scalar–vector framework and shows how geometric tri-vector composites reproduce charge, mass, and spin without extra dimensions or hidden particles.  
-  - *Standard Model Fermion Sector from Internal Tri-Vector Geometry* — derives the full fermion spectrum and CKM/PMNS mixing matrices from just six geometric parameters, achieving sub-percent precision across most observables.  
-  - *Quantum Completion of the Axis Model* — demonstrates that the theory is a consistent EFT: BRST-invariant, anomaly-free, renormalization-stable up to ΛΦ ≈ 10⁵ GeV, and compatible with precision (g-2) and compositeness bounds.  
-  - *Quantum Gravitational Extension of the Axis Model* — derives the Einstein–Hilbert term from one-loop dynamics, reinterprets black hole interiors as scalar-incoherent domains, and predicts falsifiable deviations from GR such as environment-dependent G(Φ) and gravitational wave attenuation.  
+  - [*The Axis Model*](The_Axis_Model.pdf) — lays out the foundational postulates of the scalar–vector framework and shows how geometric tri-vector composites reproduce charge, mass, and spin without extra dimensions or hidden particles.  
+  - [*Standard Model Fermion Sector from Internal Tri-Vector Geometry*](The_Standard_Model_Fermion_Sector.pdf) — derives the full fermion spectrum and CKM/PMNS mixing matrices from just six geometric parameters, achieving sub-percent precision across most observables.  
+  - [*Quantum Completion of the Axis Model*](Axis_Model_Quantum_Completion.pdf) — demonstrates that the theory is a consistent EFT: BRST-invariant, anomaly-free, renormalization-stable up to ΛΦ ≈ 10⁵ GeV, and compatible with precision (g-2) and compositeness bounds.  
+  - [*Quantum Gravitational Extension of the Axis Model*](Quantum_Gravitational_Extension.pdf) — derives the Einstein–Hilbert term from one-loop dynamics, reinterprets black hole interiors as scalar-incoherent domains, and predicts falsifiable deviations from GR such as environment-dependent G(Φ) and gravitational wave attenuation.  
 
 - **notebooks/** — Colab notebooks used in the analyses, reproducing key results (fermion mass fits, RG flows, gravitational predictions, etc.).
 
