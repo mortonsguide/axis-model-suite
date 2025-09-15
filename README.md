@@ -23,13 +23,13 @@ attenuation—providing falsifiable departures from GR.
 Interactive notebooks reproducing the analyses from the first three papers.  
 Each folder contains the corresponding Colab notebooks; open any `.ipynb` file and click the **“Open in Colab”** badge at the top to launch it live.  
 
-- [**foundational/**](notebooks/foundational) — *The Axis Model*  
+- [*foundational/*](notebooks/foundational) — *The Axis Model*  
   Benchmarks, stability maps, decay channels, cosmological fits, and gravitational predictions.  
 
-- [**sm_fermion_sector/**](notebooks/sm_fermion_sector) — *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
+- [*sm_fermion_sector/*](notebooks/sm_fermion_sector) — *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
   Fermion spectrum fits, CKM/PMNS mixing, and sensitivity tables.  
 
-- [**quantum_completion/**](notebooks/quantum_completion) — *Quantum Completion of the Axis Model*  
+- [*quantum_completion/*](notebooks/quantum_completion) — *Quantum Completion of the Axis Model*  
   Renormalization-group flows, anomaly cancellation checks, and BRST consistency.  
 
 - *Quantum Gravitational Extension of the Axis Model* — analytic derivations only (no companion notebooks).  
