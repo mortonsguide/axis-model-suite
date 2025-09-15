@@ -1,4 +1,4 @@
-# axis-model-suite
+# Axis model suite
 
 Reproducible papers and code on fermion structure, gauge completion, and gravity in a scalar–vector field framework.  
 The suite derives the full Standard Model fermion spectrum, CKM/PMNS mixing, and electroweak sector from geometry; establishes quantum consistency (BRST invariance, anomaly cancellation, renormalization stability); and extends to emergent gravity with testable deviations from GR.
