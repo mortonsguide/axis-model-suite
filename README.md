@@ -8,13 +8,13 @@ The suite derives the full Standard Model fermion spectrum, CKM/PMNS mixing, and
 ## Contents
 
 - **papers/** — PDFs of the four main works:
-  - *The Axis Model* — foundational postulates and scalar–vector framework
-  - *Standard Model Fermion Sector from Internal Tri-Vector Geometry*
-  - *Quantum Completion of the Axis Model* — gauge structure, BRST, anomaly cancellation
-  - *Quantum Gravitational Extension of the Axis Model* — emergent spacetime, decoherence regimes
-- **notebooks/** — Jupyter notebooks reproducing key results (fermion mass fits, RG flows, etc.)
-- **figures/** — generated plots and diagrams
-- **code/** — Python modules used in the analyses
+  - *The Axis Model* — foundational postulates and scalar–vector framework  
+  - *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
+  - *Quantum Completion of the Axis Model* — gauge structure, BRST, anomaly cancellation  
+  - *Quantum Gravitational Extension of the Axis Model* — emergent spacetime, decoherence regimes  
+- **notebooks/** — Jupyter notebooks reproducing key results (fermion mass fits, RG flows, etc.)  
+- **figures/** — generated plots and diagrams  
+- **code/** — Python modules used in the analyses  
 
 ---
 
@@ -22,22 +22,28 @@ The suite derives the full Standard Model fermion spectrum, CKM/PMNS mixing, and
 
 Clone the repo and open the notebooks:
 
-```bash
-git clone https://github.com/mortonsguide/axis-model-suite.git
-cd axis-model-suite/notebooks
-jupyter notebook
+    git clone https://github.com/mortonsguide/axis-model-suite.git
+    cd axis-model-suite/notebooks
+    jupyter notebook
+
+**Dependencies:** Python ≥ 3.9, NumPy, SciPy, Matplotlib, SymPy, Jupyter.
 
 ---
 
 ## Citation
 
-If you use this work, please cite the Zenodo record:
+If you use this work, please cite the relevant Zenodo record(s):
 
-@software{axis_model_suite,
-  author       = {Andrew Morton},
-  title        = {Axis Model Suite: Reproducible Papers and Code},
-  year         = {2025},
-  publisher    = {Zenodo},
-  doi          = {10.xxxx/zenodo.xxxxx},
-  url          = {https://doi.org/10.xxxx/zenodo.xxxxx}
-}
+- *The Axis Model* — https://doi.org/10.5281/zenodo.16164597  
+- *Standard Model Fermion Sector from Internal Tri-Vector Geometry* — https://doi.org/10.5281/zenodo.16447452  
+- *Quantum Completion of the Axis Model* — https://doi.org/10.5281/zenodo.16489361  
+- *Quantum Gravitational Extension of the Axis Model* — https://doi.org/10.5281/zenodo.16500059  
+
+BibTeX entries can be generated directly from each DOI page.
+
+---
+
+## License
+
+This project is released under the MIT License.  
+You are free to use, adapt, and redistribute with attribution. See [LICENSE](LICENSE) for details.
