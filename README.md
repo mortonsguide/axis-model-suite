@@ -27,6 +27,8 @@ git clone https://github.com/mortonsguide/axis-model-suite.git
 cd axis-model-suite/notebooks
 jupyter notebook
 
+---
+
 ## Citation
 
 If you use this work, please cite the Zenodo record:
