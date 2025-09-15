@@ -17,21 +17,26 @@ attenuation—providing falsifiable departures from GR.
   - *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
   - *Quantum Completion of the Axis Model* — gauge structure, BRST, anomaly cancellation  
   - *Quantum Gravitational Extension of the Axis Model* — emergent spacetime, decoherence regimes  
-- **notebooks/** — Jupyter notebooks reproducing key results (fermion mass fits, RG flows, etc.)  
+- **notebooks/** — Colab notebooks used in the analyses, reproducing key results (fermion mass fits, RG flows, etc.)  
 - **figures/** — generated plots and diagrams  
-- **code/** — Python modules used in the analyses  
 
 ---
 
 ## Getting Started
 
-Clone the repo and open the notebooks:
+You can run the notebooks in two ways:
+
+**Option 1: Open in Google Colab (recommended)**  
+Click the Colab badge next to a notebook in the [Notebooks](#notebooks) section to launch it directly in your browser — no installation needed.
+
+**Option 2: Run locally with Jupyter**  
+Clone the repo and open the notebooks with Jupyter:
 
     git clone https://github.com/mortonsguide/axis-model-suite.git
     cd axis-model-suite/notebooks
     jupyter notebook
 
-**Dependencies:** Python ≥ 3.9, NumPy, SciPy, Matplotlib, SymPy, Jupyter.
+**Dependencies (for local use):** Python ≥ 3.9, NumPy, SciPy, Matplotlib, SymPy, Jupyter.
 
 ---
 
