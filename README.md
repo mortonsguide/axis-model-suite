@@ -18,27 +18,21 @@ attenuation—providing falsifiable departures from GR.
   - [*Quantum Completion of the Axis Model*](Axis_Model_Quantum_Completion.pdf) — demonstrates that the theory is a consistent EFT: BRST-invariant, anomaly-free, renormalization-stable up to ΛΦ ≈ 10⁵ GeV, and compatible with precision (g-2) and compositeness bounds.  
   - [*Quantum Gravitational Extension of the Axis Model*](Quantum_Gravitational_Extension.pdf) — derives the Einstein–Hilbert term from one-loop dynamics, reinterprets black hole interiors as scalar-incoherent domains, and predicts falsifiable deviations from GR such as environment-dependent G(Φ) and gravitational wave attenuation.  
 
-- **notebooks/** — Colab notebooks used in the analyses, reproducing key results (fermion mass fits, RG flows, gravitational predictions, etc.).
+- ## Notebooks
 
----
+Interactive notebooks reproducing the analyses from the first three papers.  
+Each folder contains the corresponding Colab notebooks; open any `.ipynb` file and click the **“Open in Colab”** badge at the top to launch it live.  
 
-## Getting Started
+- [**foundational/**](notebooks/foundational) — *The Axis Model*  
+  Benchmarks, stability maps, decay channels, cosmological fits, and gravitational predictions.  
 
-You can run the notebooks in two ways:
+- [**sm_fermion_sector/**](notebooks/sm_fermion_sector) — *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
+  Fermion spectrum fits, CKM/PMNS mixing, and sensitivity tables.  
 
-**Option 1: Open in Google Colab (recommended)**  
-Click the Colab badge next to a notebook in the [Notebooks](#notebooks) section to launch it directly in your browser — no installation needed.
+- [**quantum_completion/**](notebooks/quantum_completion) — *Quantum Completion of the Axis Model*  
+  Renormalization-group flows, anomaly cancellation checks, and BRST consistency.  
 
-**Option 2: Run locally with Jupyter**  
-Clone the repo and open the notebooks with Jupyter:
-
-    git clone https://github.com/mortonsguide/axis-model-suite.git
-    cd axis-model-suite/notebooks
-    jupyter notebook
-
-**Dependencies (for local use):** Python ≥ 3.9, NumPy, SciPy, Matplotlib, SymPy, Jupyter.
-
----
+- *Quantum Gravitational Extension of the Axis Model* — analytic derivations only (no companion notebooks).  
 
 ## Citation
 
