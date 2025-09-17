@@ -29,15 +29,20 @@ Each folder contains the corresponding Colab notebooks; open any `.ipynb` file a
   - *Quantum Gravitational Extension of the Axis Model* — analytic derivations only (no companion notebooks).  
 
 - **data/** — Reference datasets used in the foundational analyses. Each file is either stored here directly (if small) or linked via DOI in the `data/README.md` for reproducibility.
-  - *NOνA Posterior Histogram* — Extracted from [`posteriors_worc_indep-ord-marg.root`](data/posteriors_worc_indep-ord-marg.root).  
-    Contains the conditional posterior for sin²(Φ₂₃) in the normal hierarchy, as used in the neutrino sector fits.
-  - *Planck 2018 + CAMB CMB Spectra* —  
+  - *NOνA Posterior Histogram* — Conditional posterior for sin<sup>2</sup>(Φ<sub>23</sub>) in the normal hierarchy, extracted from the NOνA public release. 
+    
+    -- File: [`posteriors_worc_indep-ord-marg.root`](posteriors_worc_indep-ord-marg.root)  
+    -- DOI: [10.5281/zenodo.15786985](https://doi.org/10.5281/zenodo.15786985) 
+  - *Planck 2018 + CAMB CMB Spectra* —  Used for the log-space suppression fit described in Appendix AG. Compatible with the accompanying Colab notebook.
+ 
     • [`COM_PowerSpect_CMB-TT-full_R3.01.txt`](data/COM_PowerSpect_CMB-TT-full_R3.01.txt): Planck 2018 TT angular power spectrum.  
-    • [`camb_44255652_scalcls_dat.txt`](data/camb_44255652_scalcls_dat.txt): CAMB-generated best-fit ΛCDM spectrum.  
-    These datasets are used for the log-space suppression fit described in Appendix AG, and are directly compatible with the accompanying Colab notebook.
-  - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Provided as [Skyserver_SQL9_15_2024 12_45_41 AM.csv](data/Skyserver_SQL9_15_2024%2012_45_41%20AM.csv).  
-    Used for large-scale structure and dispersion analyses.
-
+    • [`camb_44255652_scalcls_dat.txt`](data/camb_44255652_scalcls_dat.txt): CAMB-generated best-fit ΛCDM spectrum.
+    
+     -- DOI: [10.5281/zenodo.15770241](https://doi.org/10.5281/zenodo.15770241)
+  - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Galaxy velocity dispersion sample from SDSS DR17, used for large-scale structure and dispersion analyses.
+      
+      -- File: [`Skyserver_SQL9_15_2024_12_45_41_AM.csv`](Skyserver_SQL9_15_2024_12_45_41_AM.csv)  
+      -- DOI: [10.5281/zenodo.15768686](https://doi.org/10.5281/zenodo.15768686)
 ---
 
 ## Citation
