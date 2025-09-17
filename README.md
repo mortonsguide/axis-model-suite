@@ -18,21 +18,27 @@ attenuation—providing falsifiable departures from GR.
   - [*Quantum Completion of the Axis Model*](Axis_Model_Quantum_Completion.pdf) — demonstrates that the theory is a consistent EFT: BRST-invariant, anomaly-free, renormalization-stable up to ΛΦ ≈ 10⁵ GeV, and compatible with precision (g-2) and compositeness bounds.  
   - [*Quantum Gravitational Extension of the Axis Model*](Quantum_Gravitational_Extension.pdf) — derives the Einstein–Hilbert term from one-loop dynamics, reinterprets black hole interiors as scalar-incoherent domains, and predicts falsifiable deviations from GR such as environment-dependent G(Φ) and gravitational wave attenuation.  
 
-- ## Notebooks
-
-Interactive notebooks reproducing the analyses from the first three papers.  
+- **notebooks/** — Interactive notebooks reproducing the analyses from the first three papers.  
 Each folder contains the corresponding Colab notebooks; open any `.ipynb` file and click the **“Open in Colab”** badge at the top to launch it live.  
-
-- [*foundational/*](notebooks/foundational) — *The Axis Model*  
+  - [*foundational/*](notebooks/foundational) — *The Axis Model*  
   Benchmarks, stability maps, decay channels, cosmological fits, and gravitational predictions.  
-
-- [*sm_fermion_sector/*](notebooks/sm_fermion_sector) — *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
+  - [*sm_fermion_sector/*](notebooks/sm_fermion_sector) — *Standard Model Fermion Sector from Internal Tri-Vector Geometry*  
   Fermion spectrum fits, CKM/PMNS mixing, and sensitivity tables.  
-
-- [*quantum_completion/*](notebooks/quantum_completion) — *Quantum Completion of the Axis Model*  
+  - [*quantum_completion/*](notebooks/quantum_completion) — *Quantum Completion of the Axis Model*  
   Renormalization-group flows, anomaly cancellation checks, and BRST consistency.  
+  - *Quantum Gravitational Extension of the Axis Model* — analytic derivations only (no companion notebooks).  
 
-- *Quantum Gravitational Extension of the Axis Model* — analytic derivations only (no companion notebooks).  
+- **data/** — Reference datasets used in the foundational analyses. Each file is either stored here directly (if small) or linked via DOI in the `data/README.md` for reproducibility.
+  - *NOνA Posterior Histogram* — Extracted from [`posteriors_worc_indep-ord-marg.root`](data/posteriors_worc_indep-ord-marg.root).  
+    Contains the conditional posterior for sin²(Φ₂₃) in the normal hierarchy, as used in the neutrino sector fits.
+  - *Planck 2018 + CAMB CMB Spectra* —  
+    • [`COM_PowerSpect_CMB-TT-full_R3.01.txt`](data/COM_PowerSpect_CMB-TT-full_R3.01.txt): Planck 2018 TT angular power spectrum.  
+    • [`camb_44255652_scalcls.dat`](data/camb_44255652_scalcls.dat): CAMB-generated best-fit ΛCDM spectrum.  
+    These datasets are used for the log-space suppression fit described in Appendix AG, and are directly compatible with the accompanying Colab notebook.
+  - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Provided as [`Skyserver_SQL9_15_2024.xlsx`](data/Skyserver_SQL9_15_2024.xlsx).  
+    Used for large-scale structure and dispersion analyses.
+
+---
 
 ## Citation
 
