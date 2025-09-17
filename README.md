@@ -35,7 +35,7 @@ Each folder contains the corresponding Colab notebooks; open any `.ipynb` file a
     • [`COM_PowerSpect_CMB-TT-full_R3.01.txt`](data/COM_PowerSpect_CMB-TT-full_R3.01.txt): Planck 2018 TT angular power spectrum.  
     • [`camb_44255652_scalcls_dat.txt`](data/camb_44255652_scalcls_dat.txt): CAMB-generated best-fit ΛCDM spectrum.  
     These datasets are used for the log-space suppression fit described in Appendix AG, and are directly compatible with the accompanying Colab notebook.
-  - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Provided as [`Skyserver_SQL9_15_2024.xlsx`](data/Skyserver_SQL9_15_2024.xlsx).  
+  - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Provided as [`Skyserver_SQL9_15_2024 12_45_41 AM.csv`](data/Skyserver_SQL9_15_2024 12_45_41 AM.csv).  
     Used for large-scale structure and dispersion analyses.
 
 ---
