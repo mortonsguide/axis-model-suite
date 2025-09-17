@@ -31,7 +31,7 @@ Each folder contains the corresponding Colab notebooks; open any `.ipynb` file a
 - **data/** — Reference datasets used in the foundational analyses. Each file is either stored here directly (if small) or linked via DOI in the `data/README.md` for reproducibility.
   - *NOνA Posterior Histogram* — Conditional posterior for sin<sup>2</sup>(Φ<sub>23</sub>) in the normal hierarchy, extracted from the NOνA public release. 
     
-    -- File: [`posteriors_worc_indep-ord-marg.root`](posteriors_worc_indep-ord-marg.root)  
+    -- File: [`posteriors_worc_indep-ord-marg.root`](data/posteriors_worc_indep-ord-marg.root)  
     -- DOI: [10.5281/zenodo.15786985](https://doi.org/10.5281/zenodo.15786985) 
   - *Planck 2018 + CAMB CMB Spectra* —  Used for the log-space suppression fit described in Appendix AG. Compatible with the accompanying Colab notebook.
  
@@ -41,7 +41,7 @@ Each folder contains the corresponding Colab notebooks; open any `.ipynb` file a
      -- DOI: [10.5281/zenodo.15770241](https://doi.org/10.5281/zenodo.15770241)
   - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Galaxy velocity dispersion sample from SDSS DR17, used for large-scale structure and dispersion analyses.
       
-      -- File: [`Skyserver_SQL9_15_2024_12_45_41_AM.csv`](Skyserver_SQL9_15_2024_12_45_41_AM.csv)  
+      -- File: [`Skyserver_SQL9_15_2024_12_45_41_AM.csv`](data/Skyserver_SQL9_15_2024_12_45_41_AM.csv)  
       -- DOI: [10.5281/zenodo.15768686](https://doi.org/10.5281/zenodo.15768686)
 ---
 
