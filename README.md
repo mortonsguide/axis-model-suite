@@ -41,7 +41,7 @@ Each folder contains the corresponding Colab notebooks; open any `.ipynb` file a
      -- DOI: [10.5281/zenodo.15770241](https://doi.org/10.5281/zenodo.15770241)
   - *SDSS DR17 Galaxy Velocity Dispersion Sample* — Galaxy velocity dispersion sample from SDSS DR17, used for large-scale structure and dispersion analyses.
       
-      -- File: [Skyserver_SQL9_15_2024_12_45_41_AM.csv](data/Skyserver_SQL9_15_2024 12_45_41 AM.csv).  
+      -- File: [Skyserver_SQL9_15_2024_12_45_41_AM.csv](data/Skyserver_SQL9_15_2024%2012_45_41%20AM.csv).  
       -- DOI: [10.5281/zenodo.15768686](https://doi.org/10.5281/zenodo.15768686)
 ---
 
