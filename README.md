@@ -2,9 +2,9 @@
 
 Reproducible papers and code on fermion structure, gauge completion, and gravity in a scalar–vector field framework.
 From six geometric inputs the suite reproduces the full SM fermion spectrum and CKM/PMNS matrices; dynamically
-generates the electroweak sector with W/Z masses from a composite orientation scale (v_eff = Zχ·v); and fixes |Vub|
+generates the electroweak sector with W/Z masses from a composite orientation scale (v<sub>eff</sub> = Zχ·v); and fixes |Vub|
 via a parameter-free rank-2 overlap. The quantum completion is BRST-invariant, anomaly-free, and RG-stable up to the
-scalar-coherence cutoff (~10^5 GeV), consistent with (g-2) and dilepton-compositeness bounds. The gravitational
+scalar-coherence cutoff (~10⁵ GeV), consistent with (g-2) and dilepton-compositeness bounds. The gravitational
 extension derives the Einstein–Hilbert term at one loop and predicts environment-dependent G(Φ) with lensing/GW
 attenuation—providing falsifiable departures from GR.
 
