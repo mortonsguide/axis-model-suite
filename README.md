@@ -12,9 +12,11 @@ via a parameter-free rank-2 overlap. The framework is UV-extended to a pre-geome
 - **papers/** — PDFs of the four main works:
   - [*The Axis Model*](The_Axis_Model.pdf) — lays out the foundational postulates of the scalar–vector framework and shows how geometric tri-vector composites reproduce charge, mass, and spin without extra dimensions or hidden particles.  
   - [*A Geometric Origin for the Standard Model Fermion Sector*](A_Geometric_Origin_for_the_Standard_Model_Fermion_Sector.pdf) — derives the full fermion spectrum and CKM/PMNS mixing matrices from just six geometric parameters, achieving sub-percent precision across most observables.  
-  - [*Quantum Completion of the Axis Model*](Axis_Model_Quantum_Completion.pdf) — demonstrates that the theory is a consistent EFT: BRST-invariant, anomaly-free, renormalization-stable up to ΛΦ ≈ 10⁵ GeV, and compatible with precision (g-2) and compositeness bounds.  
+  - [*Quantum Completion of the Axis Model*](Axis_Model_Quantum_Completion.pdf) — demonstrates that the theory is a consistent EFT: BRST-invariant, anomaly-free, renormalization-stable up to Λ_Φ ≈ 10⁵ GeV, and compatible with precision (g-2) and compositeness bounds.  
   - [*Quantum Gravitational Extension of the Axis Model*](Quantum_Gravitational_Extension_of_the_Axis_Model.pdf) — derives the Einstein–Hilbert term from one-loop dynamics, reinterprets black hole interiors as scalar-incoherent domains, and predicts falsifiable deviations from GR such as environment-dependent G(Φ) and gravitational wave attenuation.
   - [*Quantum Consistency and Renormalization of the Axis Model Effective Field Theory*](Quantum_Consistency_and_Renormalization_of_the_Axis_Model_Effective_Field_Theory.pdf) — constructs a pre-geometric SU(2) ultraviolet parent for the Axis U(1)_Z, applies single-threshold matching at mu = Lambda_q, and runs the complete two-loop RGEs across the threshold.
+  - [*Quantifying Emergent Gravity in the Axis Model*](Quantifying_Emergent_Gravity_in_the_Axis_Model.pdf) —   quantifies the local Einstein–Hilbert coefficient in scalar-coherent domains via a one-loop master identity,  defines the observable map (s ≡ G_eff /G_0) in the coherent EFT window, and lays out falsifiable weak-field predictions (lensing, time delays, GW amplitudes) with a reproducible notebook.
+
 
 - **notebooks/** — Interactive notebooks reproducing the analyses from the first three papers.  
 Each folder contains the corresponding Colab notebooks; open any `.ipynb` file and click the **“Open in Colab”** badge at the top to launch it live.  
@@ -27,6 +29,9 @@ Each folder contains the corresponding Colab notebooks; open any `.ipynb` file a
   - *Quantum Gravitational Extension of the Axis Model* — analytic derivations only (no companion notebooks).
   - [*UV_extension/*](notebooks/UV_extension) — *Quantum Consistency and Renormalization of the Axis Model Effective Field Theory*  
   Two-loop Axis-EFT RGEs, single-threshold matching at Λq, and vacuum-stability verification with reproducible Colab notebooks.
+  - [*emergent_gravity/*](notebooks/emergent_gravity) — *Quantifying Emergent Gravity in the Axis Model*  
+    Reproduces the G_eff (x) map, species-sum checks, figures, and acceptance tests.  
+
 
 - **data/** — Reference datasets used in the foundational analyses. Each file is either stored here directly (if small) or linked via DOI in the `data/README.md` for reproducibility.
   - *NOνA Posterior Histogram* — Conditional posterior for sin<sup>2</sup>(Φ<sub>23</sub>) in the normal hierarchy, extracted from the NOνA public release. 
